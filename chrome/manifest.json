@@ -1,0 +1,21 @@
+{
+   "name": "TumbleWeed",
+   "version": "0.0.1",
+   "manifest_version": 2,
+   "description": "Adds tumbleweed to google plus pages",
+   "icons": {
+      "48" : "sample-48.png",
+      "128": "sample-128.png"
+   },
+   "content_scripts": [
+      {
+         "matches" : ["https://plus.google.com/*"], 
+         "js" : ["contentscript.js"],
+         "css": ["tw.css"]
+      }
+   ], 
+   "web_accessible_resources": [
+      "ufo.png", 
+      "ufo.gif" 
+   ]
+}

@@ -1,0 +1,5 @@
+div.tumbleweed {
+   position: absolute;
+   left: -200px;
+   z-index: 1000;
+}
